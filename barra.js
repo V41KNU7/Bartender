@@ -20,5 +20,5 @@ const barra = {
 
     };
 
-app.listen( 4200, () => console.log("Server Up!"));
+app.listen( 4200, () => console.log("Server Up! Let's go"));
 

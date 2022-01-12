@@ -2,7 +2,7 @@ const express = require ('express');
 const path = require ('path');
 const app = express();
 
-const tragos = require('/tragos');
+const tragos = require('./tragos.js');
 
 const barra = {
 
@@ -19,6 +19,6 @@ const barra = {
     }
 
     };
-
+//console.table(JSON.stringify(barra.tragos))
 app.listen( 4200, () => console.log("Server Up! Let's go"));
 

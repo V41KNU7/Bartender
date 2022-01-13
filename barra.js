@@ -22,3 +22,5 @@ const barra = {
 //console.table(JSON.stringify(barra.tragos))
 app.listen( 4200, () => console.log("Server Up! Let's go"));
 
+app.use(express.static(path.resolve(__dirname, './public')));
+
